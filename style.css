@@ -6,7 +6,7 @@ body
     margin: 0;
     overflow-x: hidden;
     text-align: center;
-    overflow: hidden;
+    /* overflow: hidden; */
 
 }
 
@@ -139,3 +139,8 @@ footer li a:hover
     
 }
 
+/* Edits from jonathan */
+
+.content {
+    height: 100vh;
+}
