@@ -1,0 +1,141 @@
+body
+
+{
+    background-color: rgb(255, 255, 255);
+    padding:0%;
+    margin: 0;
+    overflow-x: hidden;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+header
+{
+    background-color:white;
+    padding: 15px;
+    box-shadow: 0 0 3px black;
+}
+
+header li
+{
+   display: inline;
+   padding-left: 45px;
+   flex: auto;
+   
+}
+
+header li a 
+{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 13px;
+    transition: .5s ease;
+
+}
+
+header li a:hover
+{
+    color: rgb(255, 195, 57);
+    text-decoration: italic;
+    padding: 13px;
+    
+}
+
+
+header ul #Contact a 
+{
+    color:black;
+    background:linear-gradient(45deg, gold, white );
+    border-radius: 20px;
+    float:inline;
+    position: relative;
+    top: 3px;
+    transition: .5s ease;
+    flex:auto;
+    
+
+}
+
+header ul #Contact a:hover
+{
+    color: rgb(0, 0, 0);
+    background: linear-gradient(45deg, white, gold );
+    flex: auto;
+}
+
+
+.active
+{
+     color:  rgb(255, 195, 57);
+     text-decoration: underline;
+}
+
+/* header logo */
+header li img
+{
+    width: 50 px;
+    height: 80 px;
+
+}
+
+/* backgroung img*/
+.bcgimg img
+{
+    width: 100vw;
+    height: 99vh;
+}
+
+.bcgtext #bcgtext
+{
+    position: absolute;
+    right: auto;
+    text-align: right;
+
+}
+.bcgtext #bcgtext h1
+{
+color: black;
+font-size: 50px;
+font-weight: 100;
+}
+
+.bcgtext #bcgtext h3
+{
+color: black;
+font-size: 30px;
+font-weight: 100;
+}
+
+
+footer
+{
+    background-color:white;
+    padding: 15px;
+    box-shadow: 0 0 3px black;
+}
+
+footer li
+{
+   display: inline;
+   padding-left: 45px;
+   flex: auto;
+   
+}
+footer li a 
+{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 13px;
+    transition: .5s ease;
+
+}
+
+footer li a:hover
+{
+    color: rgb(255, 195, 57);
+    text-decoration: italic;
+    padding: 13px;
+    
+}
+
