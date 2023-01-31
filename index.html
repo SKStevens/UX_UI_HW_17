@@ -10,33 +10,46 @@
 <body>
     <!--background img -->
     <div class="bcgimg">
-        
-    </div>
-
-    <!-- background image text-->
-    <div id="bcgtext">
-        <h1>About me</h1>
-          <h3>I am a creative minded person who loves to take creative ideas and turn them into a reality</h3> 
-    </div>
+        <!-- <img src="" alt=" cream star background"> Removed this because you will be coding your background image in css. -->
+        <!-- background image text-->
+        <div id="bcgtext"> <!-- Your .bcgtext needs to live inside the .bcgimg element. -->
+            <h1>Hello, I'm Sara</h1> <!-- changing the content here because of a conflict with the about-me section. -->
+            <p>I am a creative minded person who loves to take creative ideas and turn them into a reality.</p> <!-- Changed to a p tag. No need for an h3 heading here --> 
+        </div>
+    </div> <!-- end .bcgimg -->
        
 
-</div>
+<!-- </div> <-- Remove this closing div element because it is not connected to an opening div tag. -->
+
     <header>
         <ul>
-            <li><img src="https://via.placeholder.com/150x40" alt="cream star background"></li>
+            <!-- <li><img src="UX_UI_MOD_17/IMGS/S LOGO MOD 17.png" alt="logo"></li> I suggest moving your logo to above the h1 tag. --> 
             <li><a href="#">Home</a></li>
             <li><a href="#" class="active">About Me</a></li>
             <li><a href="#">Skills</a></li>
-            <li id="Contact"><a href="#">Contact</a></li>
+            <li class="contact"> <!-- Changed ID to class because of a conflict with your contact section below. -->
+                <a class="button" href="#">Contact</a> <!-- Adding a button class so that you can make all buttons on the site look the same. -->
+            </li> 
         </ul>
     </header>
-    <section class="content">
-
+    <section id="work">
+        <!-- This is where your grid-styled case studies will go. -->
+    </section>
+    <section id="about">
+        <!-- This is where your "About Me" link will take you to. -->
+    </section>
+    <section id="skills">
+        <!-- This is where your skills will go. -->
+    </section>
+    <section id="contact">
+        <!-- Contact information here. -->
     </section>
     <footer>
-        <li><a href="#">Home</li>
+        <ul>
+            <li><a href="#">Home</li>
             <li><a href="#" class="active">About Me</li>
             <li><a href="#">Skills</li>
+        </ul>
     </footer>
 </body>
 </html>

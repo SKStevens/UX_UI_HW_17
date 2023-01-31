@@ -42,8 +42,9 @@ header li a:hover
     
 }
 
+/* Remove this selector and use the button class (.button) to make all your buttons on the site the same. */
 
-header ul #Contact a 
+/* header ul .contact a 
 {
     color:black;
     background:linear-gradient(45deg, gold, white );
@@ -53,11 +54,20 @@ header ul #Contact a
     top: 3px;
     transition: .5s ease;
     flex:auto;
-    
+} */
 
+.button {
+    color:black;
+    background:linear-gradient(45deg, gold, white );
+    border-radius: 20px;
+    float:inline;
+    position: relative;
+    top: 3px;
+    transition: .5s ease;
+    padding: 10px;
 }
 
-header ul #Contact a:hover
+header ul .contact a:hover
 {
     color: rgb(0, 0, 0);
     background: linear-gradient(45deg, white, gold );
